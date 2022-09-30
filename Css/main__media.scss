@@ -123,7 +123,9 @@
    .app__text{
     width: 100%;
    }
-  
+   .parallax{
+    background-size: auto;
+   }
    .preferences__row{
     display: flex;
     flex-direction: column;
@@ -148,9 +150,6 @@
    .about__bottom__title{
     text-align: center;
    }
-   .parallax{
-    background-size: auto;
-   }
   }
 
 
@@ -172,7 +171,7 @@
       justify-content: center;
      }
      .parallax{
-      background-size: 400%;
+      background: url(../img/Trucks\ Bg2.jpg) center no-repeat fixed;
      }
   }
 

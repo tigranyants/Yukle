@@ -111,6 +111,9 @@
   .app__text {
     width: 100%;
   }
+  .parallax {
+    background-size: auto;
+  }
   .preferences__row {
     display: flex;
     flex-direction: column;
@@ -135,9 +138,6 @@
   .about__bottom__title {
     text-align: center;
   }
-  .parallax {
-    background-size: auto;
-  }
 }
 @media screen and (max-width: 610px) {
   .contacts {
@@ -156,7 +156,7 @@
     justify-content: center;
   }
   .parallax {
-    background-size: 400%;
+    background: url(../img/Trucks\ Bg2.jpg) center no-repeat fixed;
   }
 }
 @media screen and (max-width: 508px) {
