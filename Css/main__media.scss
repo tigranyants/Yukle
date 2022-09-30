@@ -1,0 +1,233 @@
+@media screen and (max-width: 1440px) {
+    .container {
+     max-width: 80%;
+    }
+  }
+
+
+
+  @media screen and (max-width: 992px){
+
+    .container {
+      max-width: none;
+      padding: 0px 20px;
+     }
+
+     .header__icon{
+      display: block;
+      position: relative;
+      z-index: 1000;
+    }
+    .header__icon.active{
+        
+         &::after{
+           transform: rotate(34deg);
+           width: 50%;
+           top: 7px;
+           right: -1px;
+         }
+         &::before{
+          transform: rotate(-30deg);
+          width: 50%;
+          bottom: 6px;
+          right: -1px;
+        }
+    }
+
+    .header__nav{
+        transition: all 400ms ease-in;
+        display: none;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+    }
+    .header__nav.active{
+      display: flex;
+      flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      right: 0;
+   }
+   .nav__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 20px;
+   }
+   .nav__app__link,.nav__link{
+    margin: 0;
+   }
+   .nav__link,.nav__app__link{
+    font-size: 30px;
+    background: none;
+    color: #000;
+   }
+   .lang__link{
+    font-size: 24px;
+   }
+   .lang__hidden{
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: none;
+    transform: none;
+   }
+   .lang{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   }
+
+
+   .about__row{
+    flex-direction: column;
+    align-items: center;
+   }
+   .about__texts{
+    align-items: center;
+    width: 100%;
+   }
+   .about__img{
+    width: 60%;
+   }
+   .header{
+    margin-bottom: 80px;
+   }
+   .about {
+    margin-bottom: 80px;
+   }
+
+   .app__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .app__img{
+    width: 60%;
+   }
+   .app__right{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+   }
+   .app__text{
+    width: 100%;
+   }
+  
+   .preferences__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .preferences__item{
+    gap: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   }
+   .item__num{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+   }
+   .contacts {
+    margin-top: 1100px;
+   }
+   .about__bottom__title{
+    text-align: center;
+   }
+   .parallax{
+    background-size: auto;
+   }
+  }
+
+
+
+  @media screen and (max-width: 610px){
+    .contacts {
+      margin-top: 950px;
+     }
+     .input {
+      width: 80%;
+     }
+     .form__btn{
+      width: 83%;
+     }
+     .line1,.line2{
+      display: none;
+     }
+     .footer__row__down{
+      justify-content: center;
+     }
+     .parallax{
+      background-size: 400%;
+     }
+  }
+
+
+  @media screen and (max-width: 508px){
+    .contacts {
+      margin-top: 800px;
+      margin-bottom: 40px;
+     }
+     .footer__row__up{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+     }
+     .preferences {
+      transform: translateY(0);
+     }
+  }
+
+
+  @media screen and (max-width: 472px){
+    .preferences__item{
+      width: 80%;
+    }
+    .app__img,.about__img {
+      width: 90%;
+    }
+    .app {
+      margin-top: 400px;
+    }
+    .preferences__item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+    }
+    .contacts{
+      margin-top: 1600px;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+  .container{
+    padding: 0px 10px;
+  }
+  
+  }
+
+
+
+  @media screen and (max-width: 360px){
+    .contacts{
+      margin-top: 1500px;
+    }
+    
+    }
