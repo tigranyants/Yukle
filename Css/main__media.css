@@ -155,9 +155,6 @@
   .footer__row__down {
     justify-content: center;
   }
-  .parallax {
-    background: url(../img/Trucks\ Bg2.jpg) center no-repeat fixed;
-  }
 }
 @media screen and (max-width: 508px) {
   .contacts {
